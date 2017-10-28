@@ -1,0 +1,31 @@
+.button {
+	-fx-background-color: #343942;
+	-fx-pref-width: 130px;
+	-fx-pref-height: 60px;
+}
+
+.pane{
+	-fx-background-color: #1C2127;
+}
+
+.smallButton{
+	-fx-background-color: #343942;
+	-fx-pref-width: 90px;
+	-fx-pref-height: 35px;
+}
+
+.errorLabel{
+	-fx-border-color: #ff0000;
+	-fx-border-width: 1px;
+	-fx-text-alignment: center;
+	-fx-label-padding: 10px;
+	-fx-border-radius: 3px;
+}
+
+.successLabel{
+	-fx-border-color: #00ff00;
+	-fx-border-width: 1px;
+	-fx-text-alignment: center;
+	-fx-label-padding: 10px;
+	-fx-border-radius: 3px;
+}
