@@ -31,6 +31,7 @@ public class GeneratorController {
             setLabelInvisible(errorLabel);
             setLabelVisible(successLabel);
         }else {
+        	setLabelInvisible(successLabel);
         	setLabelVisible(errorLabel);
         }
 	}
@@ -46,6 +47,7 @@ public class GeneratorController {
          try {
         	 file = fileChooser.showSaveDialog(Main.getpStage());
          }catch(Exception e) {
+        	 setLabelInvisible(successLabel);
         	 setLabelVisible(errorLabel);
          }   
 
@@ -55,7 +57,8 @@ public class GeneratorController {
 	 private void SaveFile(File file){
 		 try {
 			saveAccountsToFile(file);
-	     } catch (Exception e) {    	 
+	     } catch (Exception e) {    
+	    	 setLabelInvisible(successLabel);
 	    	 setLabelVisible(errorLabel);
 	    	 e.printStackTrace();
 	     }          
