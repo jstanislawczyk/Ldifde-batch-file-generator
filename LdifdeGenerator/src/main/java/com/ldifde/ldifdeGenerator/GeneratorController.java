@@ -74,10 +74,11 @@ public class GeneratorController {
 			String emailValue = email.getText();
 			String loginNameValue = loginName.getText();
 			String accountDescriptionValue = accountDescription.getText();
-			boolean isAccountActiveValue = isAccountActive.isSelected();
-			String fullName=firstNameValue+" "+initialsValue+lastNameValue;			
+			boolean isAccountActiveValue = isAccountActive.isSelected();			
+			String fullName=firstNameValue+" "+initialsValue+lastNameValue;	
+			
 			int firstAccountNumberValue = 1;
-			int numberOfGeneratedAccountsValue = 1;
+			int numberOfGeneratedAccountsValue = 1;	
 			
 			try {
 				firstAccountNumberValue = Integer.parseInt(firstAccountNumber.getText());
@@ -99,8 +100,9 @@ public class GeneratorController {
 				numberOfGeneratedAccountsValue=1;
 			}
 			
+			int numberOfAccounts = firstAccountNumberValue+numberOfGeneratedAccountsValue;
 			
-			for(int i=firstAccountNumberValue;i<=numberOfGeneratedAccountsValue;i++) {
+			for(int i=firstAccountNumberValue;i<numberOfAccounts;i++) {
 				if(!activeDirectoryPathValue.equals("")) {
 					writer.println("DN: CN="+fullName+i+", "+activeDirectoryPathValue);
 					writer.println("changetype: add");

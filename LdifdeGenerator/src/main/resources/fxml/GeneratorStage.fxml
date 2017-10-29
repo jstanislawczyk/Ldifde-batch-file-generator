@@ -75,7 +75,7 @@
       <TextField fx:id="accountDescription" layoutX="18.0" layoutY="435.0" prefHeight="25.0" prefWidth="464.0" promptText="Dowolny problem informatyczny można rozwiązać skończoną ilością restartów" />
       <Label layoutX="42.0" layoutY="496.0" prefHeight="17.0" prefWidth="424.0" text="Uwaga! Dane osoby podawaj bez numeru, zostanie on dodany automatycznie." textFill="WHITE" />
       <Label fx:id="errorLabel" contentDisplay="TOP" layoutX="183.0" layoutY="542.0" prefHeight="43.0" prefWidth="132.0" styleClass="errorLabel" text="Coś poszło nie tak :/" textFill="RED" visible="false" />
-      <Label fx:id="successLabel" contentDisplay="TOP" layoutX="183.0" layoutY="542.0" prefHeight="43.0" prefWidth="132.0" text=" Plik wygenerowano" textFill="LIME" visible="false">
+      <Label fx:id="successLabel" contentDisplay="TOP" layoutX="183.0" layoutY="542.0" prefHeight="43.0" prefWidth="132.0" text="Wygenerowano plik" textFill="LIME" visible="false">
          <styleClass>
             <String fx:value="errorLabel" />
             <String fx:value="successLabel" />
