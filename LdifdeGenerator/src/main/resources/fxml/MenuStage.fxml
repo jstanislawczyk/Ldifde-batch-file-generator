@@ -21,6 +21,6 @@
          </font>
       </Button>
       <Button layoutX="185.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#exitApplication" prefHeight="50.0" prefWidth="120.0" stylesheets="@../css/button.css" text="Wyjdź" textFill="WHITE" />
-      <Label layoutX="364.0" layoutY="569.0" prefHeight="17.0" prefWidth="122.0" text="Jakub Stanisławczyk 4J" textFill="WHITE" />
+      <Label layoutX="364.0" layoutY="545.0" prefHeight="17.0" prefWidth="122.0" text="Jakub Stanisławczyk 4J" textFill="WHITE" />
    </children>
 </Pane>

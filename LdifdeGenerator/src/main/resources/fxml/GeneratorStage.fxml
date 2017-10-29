@@ -11,62 +11,62 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" styleClass="pane" stylesheets="@../css/button.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ldifde.ldifdeGenerator.GeneratorController">
    <children>
-      <Button fx:id="buttonSave" layoutX="396.0" layoutY="551.0" mnemonicParsing="false" onMouseClicked="#generateFile" prefHeight="35.0" prefWidth="88.0" styleClass="smallButton" stylesheets="@../css/button.css" text="Generuj plik" textFill="WHITE" />
-      <Button layoutX="14.0" layoutY="551.0" mnemonicParsing="false" onMouseClicked="#goToMenuStage" styleClass="smallButton" text="Wróć" textFill="WHITE" />
-      <Text fill="WHITE" layoutX="34.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ścieżka na serwerze:" wrappingWidth="142.13671875">
+      <Button fx:id="buttonSave" layoutX="396.0" layoutY="534.0" mnemonicParsing="false" onMouseClicked="#generateFile" prefHeight="35.0" prefWidth="88.0" styleClass="smallButton" stylesheets="@../css/button.css" text="Generuj plik" textFill="WHITE" />
+      <Button layoutX="13.0" layoutY="534.0" mnemonicParsing="false" onMouseClicked="#goToMenuStage" styleClass="smallButton" text="Wróć" textFill="WHITE" />
+      <Text fill="WHITE" layoutX="34.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ścieżka na serwerze:" wrappingWidth="142.13671875">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="194.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imię:" wrappingWidth="33.13672614097595">
+      <Text fill="WHITE" layoutX="194.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Imię:" wrappingWidth="33.13672614097595">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="177.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inicjały:" wrappingWidth="50.13671875">
+      <Text fill="WHITE" layoutX="177.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inicjały:" wrappingWidth="50.13671875">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="160.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwisko:" wrappingWidth="67.13671875">
+      <Text fill="WHITE" layoutX="160.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwisko:" wrappingWidth="67.13671875">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="194.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mail:" wrappingWidth="33.136725425720215">
+      <Text fill="WHITE" layoutX="194.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mail:" wrappingWidth="33.136725425720215">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="132.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwa loginu:" wrappingWidth="97.00000658631325">
+      <Text fill="WHITE" layoutX="132.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nazwa loginu:" wrappingWidth="97.00000658631325">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="60.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numer pierwszego konta:" wrappingWidth="171.13671875">
+      <Text fill="WHITE" layoutX="60.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numer pierwszego konta:" wrappingWidth="171.13671875">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="37.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ilość wygenerowanych osób:" wrappingWidth="190.13671875">
+      <Text fill="WHITE" layoutX="37.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ilość wygenerowanych osób:" wrappingWidth="190.13671875">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <Text fill="WHITE" layoutX="164.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konto aktywne?" wrappingWidth="121.00000357627869">
+      <Text fill="WHITE" layoutX="164.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Konto aktywne?" wrappingWidth="121.00000357627869">
          <font>
             <Font size="15.0" />
          </font>
       </Text>
-      <TextField fx:id="activeDirectoryPath" layoutX="184.0" layoutY="24.0" prefHeight="25.0" prefWidth="291.0" promptText="OU=Informatycy,DC=zse,DC=com" />
-      <TextField fx:id="firstName" layoutX="255.0" layoutY="62.0" promptText="James" />
-      <TextField fx:id="initials" layoutX="255.0" layoutY="101.0" promptText="JB" />
-      <TextField fx:id="lastName" layoutX="255.0" layoutY="140.0" promptText="Bond" />
-      <TextField fx:id="email" layoutX="255.0" layoutY="179.0" promptText="jbond@gmail.com" />
-      <TextField fx:id="loginName" layoutX="255.0" layoutY="219.0" promptText="bondj" />
-      <TextField fx:id="firstAccountNumber" layoutX="255.0" layoutY="258.0" promptText="1" />
-      <TextField fx:id="numberOfGeneratedAccounts" layoutX="255.0" layoutY="297.0" promptText="20" />
-      <CheckBox fx:id="isAccountActive" layoutX="292.0" layoutY="366.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="3.0" selected="true" />
+      <TextField fx:id="activeDirectoryPath" layoutX="184.0" layoutY="55.0" prefHeight="25.0" prefWidth="291.0" promptText="OU=Informatycy,DC=zse,DC=com" />
+      <TextField fx:id="firstName" layoutX="255.0" layoutY="93.0" promptText="James" />
+      <TextField fx:id="initials" layoutX="255.0" layoutY="132.0" promptText="JB" />
+      <TextField fx:id="lastName" layoutX="255.0" layoutY="171.0" promptText="Bond" />
+      <TextField fx:id="email" layoutX="255.0" layoutY="210.0" promptText="jbond@gmail.com" />
+      <TextField fx:id="loginName" layoutX="255.0" layoutY="250.0" promptText="bondj" />
+      <TextField fx:id="firstAccountNumber" layoutX="255.0" layoutY="289.0" promptText="1" />
+      <TextField fx:id="numberOfGeneratedAccounts" layoutX="255.0" layoutY="328.0" promptText="20" />
+      <CheckBox fx:id="isAccountActive" layoutX="292.0" layoutY="375.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="3.0" selected="true" />
       <Text fill="WHITE" layoutX="18.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opis:" wrappingWidth="40.136725425720215">
          <font>
             <Font size="15.0" />
@@ -74,8 +74,8 @@
       </Text>
       <TextField fx:id="accountDescription" layoutX="18.0" layoutY="435.0" prefHeight="25.0" prefWidth="464.0" promptText="Dowolny problem informatyczny można rozwiązać skończoną ilością restartów" />
       <Label layoutX="42.0" layoutY="496.0" prefHeight="17.0" prefWidth="424.0" text="Uwaga! Dane osoby podawaj bez numeru, zostanie on dodany automatycznie." textFill="WHITE" />
-      <Label fx:id="errorLabel" contentDisplay="TOP" layoutX="183.0" layoutY="542.0" prefHeight="43.0" prefWidth="132.0" styleClass="errorLabel" text="Coś poszło nie tak :/" textFill="RED" visible="false" />
-      <Label fx:id="successLabel" contentDisplay="TOP" layoutX="183.0" layoutY="542.0" prefHeight="43.0" prefWidth="132.0" text="Wygenerowano plik" textFill="LIME" visible="false">
+      <Label fx:id="errorLabel" contentDisplay="TOP" layoutX="184.0" layoutY="530.0" prefHeight="43.0" prefWidth="132.0" styleClass="errorLabel" text="Coś poszło nie tak :/" textFill="RED" visible="false" />
+      <Label fx:id="successLabel" contentDisplay="TOP" layoutX="184.0" layoutY="530.0" prefHeight="43.0" prefWidth="132.0" text="Wygenerowano plik" textFill="LIME" visible="false">
          <styleClass>
             <String fx:value="errorLabel" />
             <String fx:value="successLabel" />

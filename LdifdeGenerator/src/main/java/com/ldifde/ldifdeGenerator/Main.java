@@ -22,6 +22,8 @@ public class Main extends Application {
 
 		primaryStage.setScene(scene);
 		primaryStage.setTitle("Generator ldifde");
+		primaryStage.setMaxHeight(605.0);
+		primaryStage.setMaxWidth(505.0);
 		primaryStage.show();
 		this.pStage = primaryStage;
 	}
